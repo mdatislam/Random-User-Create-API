@@ -10,6 +10,7 @@ const port = process.env.PORT || 5000;
 //Midle ware
 app.use(cors())
 app.use(express.json())
+app.use(express.static("public"));
 
 
 app.use('/api/V1/user',router)

@@ -1,0 +1,33 @@
+ [
+    { "id":1, 
+    "name": "Atiqul",
+     "gender":"Male",
+     "contact":"01962400815", 
+     "adress":"Rangpur", 
+     "photoUrl":"a.jpg"},
+     {
+       "id": 2,
+       "name": "Zakia",
+       "gender": "Male",
+       "contact": "01962400815",
+       "adress": "Rangpur",
+       "photoUrl": "a.jpg"
+     },
+      {
+        "id": 3,
+        "name": "Atifa",
+        "gender": "Male",
+        "contact": "01962400815",
+        "adress": "Rangpur",
+        "photoUrl": "a.jpg"
+      },
+       {
+         "id": 4,
+         "name": "Adwa",
+         "gender": "Male",
+         "contact": "01962400815",
+         "adress": "Rangpur",
+         "photoUrl": "a.jpg"
+       }
+
+]
