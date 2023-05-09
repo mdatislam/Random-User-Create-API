@@ -1,6 +1,7 @@
 
 const express = require("express");
 const cors = require("cors");
+const router = require("./routes/V1/route.user");
 require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5000;
@@ -9,6 +10,10 @@ const port = process.env.PORT || 5000;
 //Midle ware
 app.use(cors())
 app.use(express.json())
+
+
+app.use('/api/V1/user',router)
+
 
 app.get('/', (req, res) => {
     // console.log("Hello Random User API")
