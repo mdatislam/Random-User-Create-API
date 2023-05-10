@@ -24,5 +24,7 @@ router
   .get(userController.getRandomUser);
 
 router.route("/all").get(userController.getAllUsers);
+router.route("/save").post(userController.addUser);
+router.route("/delete").delete(userController.deleteUser);
 
 module.exports=router
